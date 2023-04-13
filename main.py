@@ -71,7 +71,7 @@ def main():
 
 #creates the questions form, takes the json file and creates a HTML with questions and checkboxes for the answers
 import json
-import streamlit as st
+
 
 def create_questions_form(json_data):
     html_form = '<div style="max-width: 600px;">'
@@ -88,7 +88,7 @@ def create_questions_form(json_data):
     html_form += '</div>'
     with st.form(key='my_form'):
         st.write(html_form, unsafe_allow_html=True)
-        if st.button('Submit'):
+        if st.form_submit_button('Submit'):
             answerss = {}
             for q in json:
                 answerss[q["id"]] = []
@@ -120,7 +120,7 @@ def get_correct_answers(json_data):
         correct_answers_dict[str(id)] = correct_answers
     return correct_answers_dict
 
-# Call your main function
+# Call your main function ss
 if __name__ == "__main__":
     main()
 
