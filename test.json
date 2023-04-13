@@ -1,0 +1,614 @@
+[
+    {
+        "id": 747,
+        "question": "How to get all resources with simple output (just the resource name) in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl api -o name",
+            "answer_b": "kubectl api-resources name",
+            "answer_c": "kubectl api-resources -o name",
+            "answer_d": "kubectl api -r name",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 349,
+        "question": "The database development lifecycle is very important to the successful implementation of a database system.",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 342,
+        "question": "What are Shortcodes in WordPress and how we can use it?",
+        "description": null,
+        "answers": {
+            "answer_a": "Shortcodes is a specific code that is used to do control loop.",
+            "answer_b": "Shortcodes is a specific code that is used to do recursion.",
+            "answer_c": "Shortcodes is a specific code that is used to do several tasks with less effort. Also, it is synonymous with the shortcut.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "WordPress"
+            }
+        ],
+        "category": "CMS",
+        "difficulty": "Medium"
+    },
+    
+    {
+        "id": 8,
+        "question": "When do we use the GREP command",
+        "description": null,
+        "answers": {
+            "answer_a": "When we want to search for a string",
+            "answer_b": "To find a file",
+            "answer_c": "To find a directory",
+            "answer_d": "To show all directories which have the string in their name",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            },
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 234,
+        "question": "Can you insert multiple rows with only one INSERT query?",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": "It's possible but only with newer MySQL versions",
+            "answer_d": "Yes but these inserts cause data corruption",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 324,
+        "question": "You have lost access to your admin area and can't recover it with email. What do you do?",
+        "description": null,
+        "answers": {
+            "answer_a": "Delete your themes folder.",
+            "answer_b": "Reinstall Wordpress.",
+            "answer_c": "Install a plugin to recover your password.",
+            "answer_d": "Add a new user with admin privileges in MySQL.",
+            "answer_e": "Reset the password of your user through MySQL.",
+            "answer_f": "Register a new user and set it as an administrator via your panel."
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "true",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "WordPress"
+            }
+        ],
+        "category": "CMS",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 96,
+        "question": "Which of the following method can be used to close a MySql database using PHP?",
+        "description": null,
+        "answers": {
+            "answer_a": "mysql_connect()",
+            "answer_b": "mysql_close()",
+            "answer_c": "mysql_query()",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 878,
+        "question": "How can you make sure your Docker containers and their data are safely backed up?",
+        "description": null,
+        "answers": {
+            "answer_a": "Backup the \/var\/lib\/docker\/ directory manually  Nothing.",
+            "answer_b": "Data stored in Docker containers is backed up to Docker Hub.",
+            "answer_c": "Schedule regular Plesk backups. Docker containers are included in Plesk backups.",
+            "answer_d": "Set up volume mapping on all containers to store their data in a single location on the server (example, \/data\/) and backup this location.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 302,
+        "question": "How can you edit a WordPress comment?",
+        "description": null,
+        "answers": {
+            "answer_a": "You can edit WordPress comment using the command. From the panel, under the Comments option, select edit to edit a comment.",
+            "answer_b": "You can edit WordPress comment using the dashboard. From the panel, under the Comments option, select edit to edit a comment.",
+            "answer_c": "You can edit WordPress comment using the profile. From the panel, under the Comments option, select edit to edit a comment.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "WordPress"
+            }
+        ],
+        "category": "CMS",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 209,
+        "question": "UPDATE keyword is used for:",
+        "description": null,
+        "answers": {
+            "answer_a": "to create database elements",
+            "answer_b": "to change data",
+            "answer_c": "to manage users",
+            "answer_d": "to select data",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 444,
+        "question": "Which of following is not an attribute of <form> tag",
+        "description": null,
+        "answers": {
+            "answer_a": "Action",
+            "answer_b": "url",
+            "answer_c": "name",
+            "answer_d": "Method",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 177,
+        "question": "Which command is used to access a running container?",
+        "description": null,
+        "answers": {
+            "answer_a": "docker exec -it container_id bash",
+            "answer_b": "docker fetch container",
+            "answer_c": "docker run container_id bash",
+            "answer_d": "docker login container_id",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 662,
+        "question": "Which command can give first found difference between two file after comparing?",
+        "description": null,
+        "answers": {
+            "answer_a": "diff",
+            "answer_b": "cmp",
+            "answer_c": "Common",
+            "answer_d": "stat",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1055,
+        "question": "Which command would you use to get the hostname of a remote host with Ansible",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible your_server -m setup -a field=*hostname*",
+            "answer_b": "ansible your_server -m env -a filter=*hostname*",
+            "answer_c": "ansible your_server -m setup -a filter=*hostname*",
+            "answer_d": null,
+            "answer_e": "ansible your_server -m setup -a get=*hostname*",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "DevOps"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 914,
+        "question": "The Kubernetes Network proxy runs on which node?",
+        "description": null,
+        "answers": {
+            "answer_a": "Master Node",
+            "answer_b": "Worker Node",
+            "answer_c": "All the nodes",
+            "answer_d": "None of the mentioned",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 396,
+        "question": "What kind of replication is supported by the MySQL Server?",
+        "description": null,
+        "answers": {
+            "answer_a": "Multiple-master Replication",
+            "answer_b": "MySQL Doesn't Support Replication",
+            "answer_c": "Master To Slave Replication",
+            "answer_d": "Single File Based Clustering",
+            "answer_e": "Master to Master Replication",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "true",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 669,
+        "question": "Choose the option to remove write permission for group & others for a file \u201ca.txt\u201d.",
+        "description": null,
+        "answers": {
+            "answer_a": "Select disable write for group and others where file=\u201da.txt\u201d",
+            "answer_b": "chmod go-w a.txt",
+            "answer_c": "chmod w-go a.txt",
+            "answer_d": "chmod go=\u201dr-x\u201d a.txt",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 564,
+        "question": "Which one of the following property scopes is not supported by PHP?",
+        "description": null,
+        "answers": {
+            "answer_a": "public",
+            "answer_b": "static",
+            "answer_c": "friendly",
+            "answer_d": "final",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 829,
+        "question": "Each virtual machine includes the application, the necessary binaries and libraries, and an entire guest operating system - All of which may be tens of GBs in size.",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    }
+]
